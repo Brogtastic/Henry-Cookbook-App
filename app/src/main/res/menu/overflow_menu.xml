@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="delete"
+        android:id="@+id/item_delete"
+        android:icon="@drawable/baseline_delete_outline_24"
+        app:showAsAction="always"/>
+    <item android:title="add"
+        android:id="@+id/item_add"
+        android:icon="@drawable/baseline_add_circle_24"
+        app:showAsAction="always"/>
+</menu>
+
+<!--
+Overflow menu
+<item android:title="add"
+        android:id="@+id/item_add"
+        android:icon="@drawable/baseline_add_circle_24"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/add_recipe"
+                android:title="Add Recipe"/>
+        </menu>
+    </item>
+-->

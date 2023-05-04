@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Henry\'s Cookbook</string>
+    <string name="recipe_title_hint">Recipe Title</string>
+    <string name="recipe_description_hint">Brief Description</string>
+    <string name="add_recipe">New Recipe</string>
+    <string name="recipe_ingredients_hint">List of Ingredients</string>
+</resources>

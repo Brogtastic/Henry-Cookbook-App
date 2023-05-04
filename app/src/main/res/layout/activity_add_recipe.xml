@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRecipe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_recipe"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/recipe_image_enter"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/camera" />
+
+    <EditText
+        android:id="@+id/recipe_title_enter"
+        android:layout_width="match_parent"
+        android:layout_height="74sp"
+        android:hint="@string/recipe_title_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/recipe_description_enter"
+        android:layout_width="match_parent"
+        android:layout_height="63sp"
+        android:hint="@string/recipe_description_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/recipe_ingredients_enter"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:gravity="start"
+        android:hint="@string/recipe_ingredients_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preparation Steps:"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/recipe_instructions_enter"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:gravity="start"
+        android:hint="Write the instructions here"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Recipe" />
+
+</LinearLayout>
